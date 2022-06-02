@@ -19,11 +19,19 @@ function SimpleCounter(props) {
 				<div class="card-body">
 					<div className="five">{props.digitFive % 10}</div>
 				</div>
+				<div class="card-body">
+					<div className="four">{props.digitFour % 10}</div>
+				</div>
+				<div class="card-body">
+					<div className="three">{props.digitThree % 10}</div>
+				</div>
+				<div class="card-body">
+					<div className="two">{props.digitTwo % 10}</div>
+				</div>
+				<div class="card-body">
+					<div className="one">{props.digitOne % 10}</div>
+				</div>
 			</div>
-			<div className="four">{props.digitFour % 10}</div>
-			<div className="three">{props.digitThree % 10}</div>
-			<div className="two">{props.digitTwo % 10}</div>
-			<div className="one">{props.digitOne % 10}</div>
 		</div>
 	);
 } //render your react application
